@@ -1,0 +1,7 @@
+Tipo Abstrato de Dados é um conjunto de atributos e um conjunto de métodos que manipulam estes atributos.
+
+Classe é um tipo abstrato de dados.
+
+Objeto é uma instância da classe; é o que dá "vida" à classe.
+
+Mensagem é aquilo que será impresso na tela quando o programa for executado.
