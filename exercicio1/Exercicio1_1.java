@@ -4,7 +4,7 @@ public class Exercicio1_1{
 	
 		String ciclano = args[0];
 
-    	System.out.println("O meu nome eh " + ciclano);
+    		System.out.println("O meu nome eh " + ciclano);
 
 	}
     
