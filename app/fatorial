@@ -1,0 +1,32 @@
+package br.cefetmg.fatorial;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void calcularFatorial(View view){
+        EditText numero = (EditText) findViewById(R.id.editTextNumero);
+        String numeroDigitado = numero.getText().toString();
+        int n = Integer.parseInt(numeroDigitado);
+        int f = n;
+
+        while(n>1){
+            f = f*(n-1);
+            n--;
+        }
+
+        EditText resultado = (EditText) findViewById(R.id.editTextResultado);
+        resultado.setText(String.valueOf(f));
+
+    }
+
+}
