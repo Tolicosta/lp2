@@ -1,0 +1,2 @@
+CHANGED,/home/alunos/Aula1208/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/alunos/Aula1208/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/br/cefetmg/aula1208/MainActivity$override.class
